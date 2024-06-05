@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="container flex">
+    <div class="icon">
+      <div class="icon-img flex">
+        <img src="./images/icon-star.svg" alt="">
+      </div>
+      <h2>How did we do ?</h2>
+      <p>Please let us Know we did your support
+        request. All feedback is
+        appreciated to help us improve our offering!</p>
+      <div class="icon-input flex">
+        <input type="radio" id="choise1" value="choise1" name="choise">
+        <label for="choise1">
+          <div class="icon-shape flex">1</div>
+        </label>
+        <input type="radio" id="choise2" value="choise1" name="choise">
+        <label for="choise2">
+          <div class="icon-shape flex">2</div>
+        </label>
+        <input type="radio" id="choise3" value="choise1" name="choise">
+        <label for="choise3">
+          <div class="icon-shape flex">3</div>
+        </label>
+        <input type="radio" id="choise4" value="choise1" name="choise">
+        <label for="choise4">
+          <div class="icon-shape flex">4</div>
+        </label>
+        <input type="radio" id="choise5" value="choise1" name="choise">
+        <label for="choise5">
+          <div class="icon-shape flex">5</div>
+        </label>
+      </div>
+
+      <input type="submit" value="SUBMIT" class="submit">
+    </div>
+      <div class="ending flex">
+        <div class="ending-img flex">
+          <img src="./images/illustration-thank-you.svg" alt="">
+        </div>
+        <div class="selection-data flex">
+          <p>You selected <span>4</span> out of 5</p>
+        </div>
+        <h2>Thank you!</h2>
+        <p class="last-p">We appreciate you taking time to give a 
+          rating. if you ever need more support,
+          don't hasitate to get in touch!</p>
+      </div>
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
